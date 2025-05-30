@@ -8,8 +8,8 @@
     "start": "node app.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "lint": "npx eslint . --ext .js,.mjs,.cjs",
-  "build": "npm run lint && node your-build-script.js"
+   "lint": "npx eslint . --ext .js,.mjs,.cjs",
+    "build": "npm run lint && node your-build-script.js"
   },
   "keywords": [],
   "author": "",
@@ -28,4 +28,3 @@
     "supertest": "^7.1.1"
   }
 }
-
